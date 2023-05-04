@@ -1,0 +1,62 @@
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+
+.main{
+    background-color: rgb(221, 219, 219);
+}
+
+.paragraph{
+    margin: 15px;
+    font-size: 20px;
+}
+
+section.greybg{
+    padding: 20px;
+    background: #e0dddd;
+  }
+  
+section.greenbg{
+    padding: 20px;
+    background: rgb(179, 220, 179);
+  }
+
+.title{
+    background-color: rgb(3, 133, 61);
+    padding: 15px;
+    margin: 15px;
+    color: white;
+}
+
+.flexContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(3, 133, 61);
+    justify-content: center;
+  }
+  
+  .flexContainer > div{
+    width: 160px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    font-size: 30px;
+  }
+
+  .img{
+    display: block;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}

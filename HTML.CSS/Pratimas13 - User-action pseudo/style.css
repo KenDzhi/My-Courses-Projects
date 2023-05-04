@@ -1,0 +1,55 @@
+body{
+  font-family: 'Tilt Neon', cursive;
+  text-align: center;
+  color: white;
+  background-color: rgb(65, 108, 113);
+}
+
+.pinkBg {
+  background-color: pink;
+}
+
+button {
+  background-color: green;
+  color: white;
+}
+
+div {
+  margin: 10px;
+}
+
+input:read-only {
+  background-color: darkgrey;
+}
+
+div>input:required,textarea:required{
+  border-left: 3px solid rgb(255, 135, 233);
+  border-right: 3px solid rgb(255, 135, 233);
+}
+
+div>input:in-range {
+  border: 3px solid gold;
+}
+
+div>input:out-of-range {
+  border: 3px solid blue;
+}
+
+button:hover {
+  filter: brightness(60%);
+}
+
+input:checked+.checkedbluetext{
+  color:blue;
+}
+
+input:invalid,textarea:invalid {
+  border: 3px solid red;
+}
+
+input:valid,textarea:valid {
+ border: 3px solid green;
+}
+.smallfont{
+  font-size: 10px;
+}

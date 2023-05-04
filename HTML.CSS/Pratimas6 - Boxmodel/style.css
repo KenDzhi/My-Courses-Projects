@@ -1,0 +1,63 @@
+body {
+    background-color: #e6e1e1;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+  .mainlogo {
+    max-width: 250px;
+  }
+  
+  .apielogo {
+    max-width: 99%;
+  }
+  
+  header, section{
+    max-width: 650px;
+    margin: 10px auto;
+    padding: 50px;
+    background: white;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  header ul{
+    padding: 0px;
+  }
+
+  header, h2, h3{
+    text-align: center;
+  }
+  
+  header li {
+    display: inline;
+    margin: 10px;
+  }
+
+  li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .preke {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .preke img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+  }
+
+  .kaina {
+    font-weight: normal;
+  }
+  
+  footer {
+    text-align: center;
+    color: grey;
+  }
+  

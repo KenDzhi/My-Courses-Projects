@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(24, 23, 48);
+}
+
+header{
+    display: block;
+    text-align: center;
+}
+
+.logo{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    color: yellow;
+    font-size: 55px;
+}
+h1 span{
+    color: blue;
+}
+h2{
+    color: red;
+}
+
+tbody tr:hover{
+    background-color: rgba(77, 74, 116, 0.161);
+}
+
+.scoreboard {
+    text-align: left;
+    width: 70%;
+    margin: auto;
+    color: rgb(198, 188, 188);
+}
+
+.scoreboard tr:nth-child(odd){
+    background-color: rgba(54, 54, 83, 0.644);
+}
+.scoreboard tr:nth-child(even){
+    background-color: rgba(71, 69, 121, 0.146);
+}
+.scoreboard td:first-child{
+    color: red;
+}
+
+.scoreboard td,.scoreboard th {
+  padding: 10px 0 5px 10px;
+}
+.scoreboard th{
+    background-color: rgb(24, 23, 48);
+  }
+
+.win{
+    background-color: rgb(81, 239, 81);
+}
+.lose{
+    background-color: red;
+}
+.draw{
+    background-color: gold;
+}
+
+.block {
+    display: inline-block;
+    justify-content: space-evenly;
+    width: 20px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 6px;
+    text-align: center;
+  }

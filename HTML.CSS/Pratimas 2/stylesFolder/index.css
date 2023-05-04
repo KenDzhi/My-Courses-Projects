@@ -1,0 +1,27 @@
+header{
+    margin: 40px;
+    text-align: center;
+}
+footer{
+    padding: 40px
+}
+.general{
+    margin: 25px;
+    padding: 10px;
+    border: 2px solid #ff555f 
+}
+.largemargin{
+    margin: 80px;
+}
+.BackgroundColorPurple{
+    background-color: rgb(100, 120, 0);
+}
+.BackgroundColorGold{
+    background-color: gold;
+}
+.CenterText{
+    text-align: center;
+}
+.LargeFont{
+    font-size: 20px;
+}

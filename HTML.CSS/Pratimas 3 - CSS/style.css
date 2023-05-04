@@ -1,0 +1,103 @@
+body {
+    background-image: url(https://images.pling.com/img/00/00/59/97/06/1588505/cc652d7c76ee74f8c34dc48e59045b1f58876743cace8d054e54961d155137427dd0.jpg);
+    background-attachment: fixed;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(22, 9, 9);
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(12, 198, 105);
+    color: rgb(179, 241, 154);
+    text-align: center;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    margin: 150px;
+    padding: 80px;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+
+}
+
+.title{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#nav {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#img1 {
+    width: 99%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+
+}
+
+#link1 {
+    background-color: black;
+    background-position: center;
+    border: 3px solid limegreen;
+    font-size: 30px;
+}
+
+#link2 {
+    background-color: black;
+    border: 3px solid rgb(227, 75, 75);
+    font-size: 30px;
+}
+
+#link3 {
+    font-size: 30px;
+    background-color: black;
+    border: 3px solid green;
+}
+
+.center {
+    text-align: center;
+}
+
+.font1 {
+    font-size: 15px;
+    color: rgb(117, 22, 117);
+    font-family: "Mynerve";
+}
+
+.font2 {
+    font-size: 20px;
+    color: brown;
+    font-family: "Gajraj One", cursive;
+}
+
+.font3 {
+    font-size: 20px;
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+}

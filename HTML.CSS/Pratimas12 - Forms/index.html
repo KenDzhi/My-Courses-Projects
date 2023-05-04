@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        
+        <form action="mailto:someone@someone.com">
+            <h1>Contact us!</h1>
+
+            <div class="form">
+                <label for="name">Name:</label>
+                <input name="name" 
+                    id="name" type="text" 
+                    placeholder="Petras" 
+                    required minlength="3" 
+                    maxlength="20" 
+                />
+
+                <label for="email">Email:</label>
+                <input name="email" 
+                    id="email" 
+                    type="email" 
+                    placeholder="petras@petras.lt" 
+                    required 
+                />
+
+                <label for="refno">Reference number:</label>
+                <input id="refno" 
+                    type="number"
+                    name="refno"
+                    placeholder="123456" 
+                />
+                
+                <textarea id="message" 
+                    placeholder="Your message goes here..." 
+                ></textarea>
+            </div>
+
+            <div class="checkbox">
+                <label for="marketing">Do you want to receive news from us?</label>
+                <input 
+                    type="checkbox" 
+                    id="marketing" 
+            /></div>
+
+            <button type="submit" value="send">Send!</button>
+
+        </form>
+    </main>
+</body>
+
+</html>

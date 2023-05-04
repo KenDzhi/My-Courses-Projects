@@ -1,0 +1,30 @@
+div.my-container3, div.my-container2 {
+  border: 1px solid red;
+  padding: 10px;
+  color: greenyellow;
+}
+
+section {
+  padding: 15px;
+  border: 3px solid blue;
+}
+
+div.my-container1 {
+  background: grey;
+  box-shadow: 0 0 1px purple;
+  color: white;
+}
+
+div.my-container2 {
+  background: darkred;
+  box-shadow: 0 0 1px purple;
+  color: white;
+  border-radius: 10px;
+}
+
+div.my-container3 {
+  background: darkgreen;
+  box-shadow: 0 0 1px purple;
+  color: white;
+  margin: 10px;
+}/*# sourceMappingURL=style.css.map */

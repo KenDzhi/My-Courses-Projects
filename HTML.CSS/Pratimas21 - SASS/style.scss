@@ -1,0 +1,40 @@
+$containersBg: black;
+$containersTextColor: white;
+
+@mixin theme($theme: grey){
+    background: $theme;
+    box-shadow: 0 0 1px purple;
+    color: white;
+}
+%message-shared{
+    border: 1px solid red;
+    padding: 10px;
+    color: greenyellow
+}
+
+%section-list{
+    padding: 15px;
+    border: 3px solid blue
+}
+
+section{
+    @extend %section-list;
+}
+
+div.my-container1{
+    @include theme;
+
+}
+
+div.my-container2{
+    @include theme($theme: darkred);
+    @extend %message-shared;
+    border-radius: 10px;
+
+}
+
+div.my-container3{
+    @include theme($theme: darkgreen);
+    @extend %message-shared;
+    margin: 10px;
+}

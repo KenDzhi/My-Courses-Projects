@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <h1>Register to Fancy Form</h1>
+            <div> All fields are <span class="pinkBg">required</span> unless marked as "optional"</div>
+            
+            <div>
+                <label for="uniqueID">Your unique ID that you can't change</label>
+            </br>
+                <input name="ID" 
+                    id="uniqueID" 
+                    type="text" 
+                    placeholder="YBX0123" 
+                    readonly
+                />
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+            </br>
+                <input name="email" 
+                    id="email" type="email" 
+                    required
+                />
+            </div>
+
+            <div>
+                <label for="pass">Password:</label>
+            </br>
+                <input name="password" 
+                    id="pass" 
+                    type="password" 
+                    required 
+                />
+            </div>
+
+            <div>
+                <label for="age">Age:</label>
+            </br>
+                <input id="age" 
+                    type="number"
+                    name="age"
+                    required
+                    min="18"
+                    max="65"
+                />
+            </div>
+            
+            <div>
+                <label for="message">Tell us a little about yourself <span class="smallfont">(optional)</span></label>
+            </br>
+                <textarea id="message"
+                    name="message"
+                ></textarea>
+            </div>
+
+            <div class="checked">
+                <input id="check" 
+                    type="checkbox" 
+                    name="checkbox" 
+                    required
+                />
+                <label class="checkedbluetext" for="check">I agree with the Terms & Conditions</label>
+            </div>
+
+            <div>
+                <button id="button">Register</button>
+            </div>
+
+                
+
+        </main>
+    </body>
+</html>

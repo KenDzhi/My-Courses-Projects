@@ -1,0 +1,447 @@
+/* Mobile design */
+/* General styling */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px 20px;
+    min-height: 100vh;
+
+}
+
+.sections h2 {
+    font-size: 40px;
+    letter-spacing: 15px;
+}
+
+.sections span {
+    color: rgb(103, 74, 249);
+}
+
+/* Header styling */
+.navHeader {
+    display: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 15px
+}
+
+.pagename {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 10px;
+}
+
+.pagename span {
+    color: rgb(103, 74, 249);
+}
+
+.socialimage {
+    height: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    padding-right: 15px;
+}
+
+/* Main landing section styling*/
+.mainsection {
+    min-height: 80vh;
+}
+
+.purplebg {
+    background-color: rgb(103, 74, 249);
+
+}
+
+.whitetext {
+    color: white;
+}
+
+.maintext {
+    padding: 0px 20px;
+}
+
+.purplebutton {
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.33);
+    font-weight: bold;
+    background-color: rgb(103, 74, 249);
+}
+
+/* About us section styling */
+
+.textleft {
+    text-align: left;
+}
+
+.fontsizesmall {
+    font-size: 13px;
+}
+
+.aboutimage {
+    max-width: 100%;
+}
+
+.aboutus {
+    font-size: 30px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.readmore {
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Services section styling */
+.greybg {
+    background-color: rgb(244, 244, 244);
+}
+
+.servicestitle {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.services h3 {
+    font-size: 25px;
+}
+
+.services {
+    padding: 0px 20px 30px 20px;
+}
+
+/* Tours section styling */
+.tour {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+.tourdetails h3 {
+    padding: 0px 0px 0px 25px;
+}
+
+.tourdetails {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33);
+}
+
+.tourfooter {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    padding: 0px 25px 25px 25px;
+}
+
+.tourimg {
+    object-fit: cover;
+    min-width: 440px;
+    width: 100%;
+    height: 250px;
+}
+
+.imagebox {
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    top: 0;
+    background-color: rgb(103, 74, 249);
+    padding: 5px 5px;
+}
+
+/* Galery section styling */
+.galery {
+    width: 100%;
+    background-color: rgb(242, 241, 241);
+    padding: 0px;
+    margin: 0px;
+}
+
+.nopadding {
+    padding: 0;
+}
+
+.galleryimg {
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: rgb(103, 74, 249);
+    display: block;
+}
+
+/* Newsletter section styling */
+.newsletter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(103, 74, 249);
+    color: white;
+}
+
+.sectionleft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.emailbutton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* Footer styling */
+.smallerheight {
+    min-height: 30vh;
+}
+
+.blackBg {
+    background-color: rgb(27, 27, 27);
+}
+
+.navList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.navList a {
+    text-decoration: none;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.paddingbot {
+    padding-bottom: 20px;
+}
+
+/* Desktop design */
+
+@media screen and (min-width: 481px) {
+
+    .sections {
+        min-height: 50vh
+    }
+
+    /* Desktop header styling */
+    .header {
+        justify-content: space-between;
+    }
+
+    .header h1 {
+        margin-left: 50px;
+    }
+
+    .socials {
+        margin-right: 100px;
+        margin-left: 100px;
+    }
+
+    .navHeader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .navHeader a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    /* Desktop main section styling */
+    .main {
+        min-height: 80vh;
+    }
+
+    .background {
+        background-image: url(https://ychef.files.bbci.co.uk/976x549/p09clnrw.jpg);
+        background-size: cover;
+
+    }
+
+    .mainbackgroundlayer {
+        background: linear-gradient(rgba(103, 74, 249, 0.652), rgba(0, 0, 0, 0.759));
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .main h2 {
+        font-size: 50px;
+        color: rgba(255, 255, 255, 0.845);
+        margin-bottom: 5px;
+    }
+
+    .purplebutton {
+        color: rgba(255, 255, 255, 0.882);
+    }
+
+    .maintext {
+        max-width: 60%;
+        color: rgba(255, 255, 255, 0.681);
+        padding-bottom: 20px;
+    }
+
+    .aboutdesktop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        padding-bottom: 100px;
+    }
+
+    .aboutimage {
+        max-width: 90%;
+    }
+
+    /* .aboutimagebox{
+
+        .abouttext{
+            max-width: 100%;
+        }
+
+        /* Desktop services section styling */
+
+    .services h3 {
+        margin: 0px;
+        text-align: start;
+    }
+
+    .services p {
+        text-align: start;
+    }
+
+    .services {
+        display: flex;
+        align-items: start;
+        gap: 20px;
+    }
+
+    .servicesection {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .servicesdesktop {
+        align-items: center;
+        justify-content: center;
+        min-height: 30vh
+    }
+
+    .servicesdesktop h2 {
+        margin-bottom: 50px;
+    }
+
+    /* Desktop tours section styling */
+    .readmore {
+        text-align: center;
+    }
+
+    .tourbox {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .tour {
+        max-width: 30%;
+    }
+
+    .tourimg {
+        min-width: 0px;
+    }
+
+    .toursection {
+        margin-bottom: 50px;
+    }
+
+    /* Desktop galery section styling */
+    .galery {
+        min-height: auto;
+    }
+
+    .galeryimg {
+        max-height: 100%;
+    }
+
+    .galeryimgbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-width: 25%;
+    }
+
+    /* Desktop newsletter section styling */
+
+    .emailbutton {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .email {
+        width: 35vw
+    }
+
+    /* Desktop footer styling */
+
+    .footersection {
+        min-height: 25%;
+        padding: 50px 0px 50px 0px;
+    }
+}

@@ -1,0 +1,40 @@
+.ring {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.blue {
+    border-color: #035683;
+    top: 0;
+    left: 0;
+}
+
+.yellow {
+    border-color: #ffa20b;
+    left: 150px;
+    top: 100px;
+}
+
+.black {
+    border-color: black;
+    left: 250px;
+    top: 0px;
+}
+
+.green {
+    border-color: #119d4b;
+    left: 400px;
+    top: 100px;
+}
+
+.red {
+    border-color: #c50909;
+    left: 500px;
+    top: 0px;
+}
+
+

@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(210, 244, 255);
+    font-family: 'Tilt Neon', cursive;
+    color: rgb(28, 128, 250); 
+}
+
+.pagebody{
+    margin: auto;
+    max-width: 600px;
+}
+
+
+
+header .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;  
+}
+.logo{
+    height: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h1{
+    font-size: 30px;
+    margin: 5px;
+}
+
+nav .navContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px rgba(128, 128, 128, 0.164);
+}
+
+.navContainer div{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(64, 140, 233);
+    padding: 2px;
+}
+.navContainer div:hover{
+    background-color: rgb(187, 238, 255);
+    box-shadow:1px 1px 2px rgba(128, 128, 128, 0.164);
+    border-radius: 5px;
+    border: 1px solid rgba(28, 128, 250, 0.146);
+}
+.navMobile {
+    display: none;
+}
+
+
+.box{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.164);
+}
+
+.login{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 3rem;
+    box-sizing: border-box;
+    padding-left: 15px;
+    
+}
+
+.help{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 15px;
+    height: 4rem;
+}
+
+.main{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sidebar{
+    margin-right: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+}
+.content{
+    flex-basis: 80%;
+    flex-direction: column;
+}
+
+.inside{
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+}
+
+.footer{
+    text-align: center;
+    font-size: 10px;
+    color: rgba(28, 128, 250, 0.553);
+}
+
+
+
+@media screen and (max-width: 600px){
+
+    a{
+        text-decoration: underline;
+        color: rgb(64, 140, 233);
+        padding: 5px;
+    }
+    .navContainer div{
+        border-bottom: 1px solid rgb(187, 238, 255);
+    }
+    
+    .main{
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .help{
+        display: none;
+    }
+    .login{
+        box-sizing: initial;
+    }
+
+    nav .navContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%;
+        background-color: aliceblue;
+        border-radius: 5px;
+        box-shadow: 1px 2px 2px rgba(128, 128, 128, 0.164);
+    }
+}

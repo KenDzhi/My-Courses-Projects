@@ -1,0 +1,53 @@
+body{
+    font-family: 'Tilt Neon', cursive;
+}
+
+body{
+    background-image: url(https://images.alphacoders.com/546/thumb-1920-546091.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: rgb(74, 74, 74);
+    font-size: 50px;
+}
+form{
+    
+    padding: 50px;
+    background-color: rgba(211, 237, 237, 0.938);
+    width: 90%;
+    max-width: 600px;
+}
+
+input,textarea{
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid black;
+}
+
+button{
+  background-color: rgb(72, 72, 72);
+  color: white;
+  width: 150px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: flex-start;
+}
+
